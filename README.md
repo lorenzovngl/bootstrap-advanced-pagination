@@ -17,11 +17,11 @@ Javascript utility to enhance the use of [Bootstrap's pagination](https://getboo
 1. Call the method to print the pagination widget:
 
     ```javascript
-    advanced_pagination(selector, page, range);
+    advanced_pagination(selector, count, page, range);
     ```
 
     Example:
 
     ```javascript
-    advanced_pagination('#pagination', 15, 3);
+    advanced_pagination('#pagination', 50, 15, 3);
     ```
