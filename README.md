@@ -1,17 +1,19 @@
 # Advanced pagination with Bootstrap
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/lorenzovngl/bootstrap-advanced-pagination)
+
 Javascript utility to enhance the use of [Bootstrap's pagination](https://getbootstrap.com/docs/4.0/components/pagination/) as explained in [this article](https://www.lorenzovainigli.com/en/2019/08/advanced-pagination-with-bootstrap/).
 
 ![Advanced pagination with Bootstrap](https://i2.wp.com/www.lorenzovainigli.com/wp-content/uploads/2019/08/cropped-pagination-2.png)
 
 ## Usage
 
-1. Download the source file: [advanced-pagination-bootstrap.js](https://github.com/lorenzovngl/bootstrap-advanced-pagination/blob/main/src/1.0/advanced-pagination-bootstrap.js)
+1. Download the source file: [bootstrap-advanced-pagination.js](https://github.com/lorenzovngl/bootstrap-advanced-pagination/blob/main/src/1.0/bootstrap-advanced-pagination.js)
 
 1. Add it to the page you want to insert the widget, below Bootstrap sources:
 
     ```html
-    <script type="text/javascript" src="path/to/advanced-pagination-bootstrap.js"></script>
+    <script type="text/javascript" src="path/to/bootstrap-advanced-pagination.js"></script>
     ```
 
 1. Create the object
