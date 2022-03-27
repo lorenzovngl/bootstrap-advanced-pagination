@@ -6,22 +6,34 @@ Javascript utility to enhance the use of [Bootstrap's pagination](https://getboo
 
 ## Usage
 
-1. Download the source file: [advanced-pagination-bootstrap4.0.0.js](https://github.com/lorenzovngl/bootstrap-advanced-pagination/blob/main/src/advanced-pagination-bootstrap4.0.0.js)
+1. Download the source file: [advanced-pagination-bootstrap.js](https://github.com/lorenzovngl/bootstrap-advanced-pagination/blob/main/src/1.0/advanced-pagination-bootstrap.js)
 
 1. Add it to the page you want to insert the widget, below Bootstrap sources:
 
     ```html
-    <script type="text/javascript" src="path/to/advanced-pagination-bootstrap4.0.0.js"></script>
+    <script type="text/javascript" src="path/to/advanced-pagination-bootstrap.js"></script>
+    ```
+
+1. Create the object
+
+    ```javascript
+    let apb = new BootstrapAdvancedPagination()
+    ```
+
+1. Set the Bootstrap version you are using
+
+    ```javascript
+    apb.setBootstrapVersion("4.0.0")
     ```
 
 1. Call the method to print the pagination widget:
 
     ```javascript
-    advanced_pagination(selector, count, page, range);
+    apb.printWidget(selector, count, page, range)
     ```
 
-    Example:
+    For example:
 
     ```javascript
-    advanced_pagination('#pagination', 50, 15, 3);
+    apb.printWidget('#pagination', 50, 15, 3)
     ```

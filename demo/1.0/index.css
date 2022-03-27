@@ -1,0 +1,13 @@
+nav {
+  display: block;
+}
+
+code {
+  display: block;
+  padding: 0.5em;
+}
+
+div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

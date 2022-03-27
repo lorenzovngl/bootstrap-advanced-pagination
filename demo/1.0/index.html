@@ -5,29 +5,35 @@
         Advanced Pagination with Bootstrap 4.0.0
     </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" src="index.css" />
+    <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
     <div class="container">
         <h1>Advanced Pagination with Bootstrap 4.0.0</h1>
         <code>
-            advanced_pagination(selector, 50, 1, 3);
+            let apb = new BootstrapAdvancedPagination()
+        </code>
+        <code>
+            apb.setBootstrapVersion("4.0.0")
+        </code>
+        <code>
+            apb.printWidget(selector, 50, 1, 3)
         </code>
         <div class="pag1 d-flex flex-column justify-content-center align-items-center">
         </div>
         <code>
-            advanced_pagination(selector, 50, 15, 3);
+            apb.printWidget(selector, 50, 15, 3)
         </code>
         <div class="pag2 d-flex flex-column justify-content-center align-items-center">
         </div>
         <code>
-            advanced_pagination(selector, 50, 1, 1);
+            apb.printWidget(selector, 50, 1, 1)
         </code>
         <div class="pag3 d-flex flex-column justify-content-center align-items-center">
         </div>
         <code>
-            advanced_pagination(selector, 50, 50, 3);
+            apb.printWidget(selector, 50, 50, 3)
         </code>
         <div class="pag4 d-flex flex-column justify-content-center align-items-center">
         </div>
@@ -36,7 +42,7 @@
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../../src/advanced-pagination-bootstrap4.0.0.js"></script>
+    <script type="text/javascript" src="../../src/1.0/bootstrap-advanced-pagination.js"></script>
     <script type="text/javascript" src="index.js"></script>
 </body>
 
